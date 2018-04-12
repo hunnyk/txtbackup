@@ -1,0 +1,1748 @@
+
+http://192.168.200.1:1000
+------------------------
+
+NodeJs
+192.168.200.77/video tuts/[FreeTutorials.Us] Udemy - the-complete-nodejs-developer-course-2
+
+
+ECMAScript
+192.168.200.77/video tuts/Javascript/01 Udemy - The Complete JavaScript Course - Beginner to Professional/14 Whats new ECMAScript 6
+
+url:
+
+https://in.godaddy.com/help/install-nodejs-ubuntu-17395
+
+https://www.javatpoint.com/install-nodejs-on-linux-ubuntu-centos
+
+https://www.javatpoint.com/how-to-install-nodejs-in-ubuntu
+
+
+https://nodejs.org/api/
+
+------------------
+
+sh
+scotch.io
+how to create crud api in nodejs
+
+how to use mongodb with nodejs
+
+---------------------------------------------------
+
+crud mongodb
+url:
+https://www.js-tutorials.com/javascript-tutorial/nodejs-tutorial/crud-operations-using-nodejs-express-mongodb-mongoose/
+https://closebrace.com/tutorials/2017-03-02/creating-a-simple-restful-web-app-with-nodejs-express-and-mongodb
+
+[imp]
+google search:Saving Data to MongoDB Database from Node.js
+
+https://codeburst.io/hitchhikers-guide-to-back-end-development-with-examples-3f97c70e0073
+https://github.com/ratracegrad/node-mongo-demo
+http://technotip.com/3821/save-data-to-mongodb-node-js/
+http://technotip.com/3827/fetch-data-from-mongodb-node-js/
+http://technoon.github.io/lessons/mongodb-nodejs
+http://www.tothenew.com/blog/getting-started-with-express-js-and-mongodb/
+
+[v-imp]
+https://www.djamware.com/post/58b27ce080aca72c54645983/how-to-create-nodejs-expressjs-and-mongodb-crud-web-application
+
+http://www.c-sharpcorner.com/article/crud-operation-using-reactnodejsexpress/
+https://github.com/programmingmentor/form-nodejs-mongodb/blob/master/app.js
+
+--------------------
+
+Crud mysql using php in nodejs
+
+https://jinalshahblog.wordpress.com/2016/10/06/rest-api-using-node-js-and-mysql/
+
+https://arjunphp.com/creating-restful-api-express-js-node-js-mysql/
+https://www.c-sharpcorner.com/article/creating-web-api-using-node-js-and-mysql/
+https://www.js-tutorials.com/javascript-tutorial/node-js-restify-example-using-mysql/
+
+https://www.gitbook.com/book/kevinchisholm/handling-post-requests-with-express-and-node-js/details
+https://github.com/kevinchisholm/handling-POST-requests-with-express-and-node.js
+
+
+https://stackoverflow.com/questions/34835325/ajax-update-and-remove-table-rows-with-node-js-and-mongoose
+--------------------
+
+s:CRUD
+https://github.com/sahilgulatilanet/nodeApiTest/tree/master/public
+
+-----------
+
+Install nodejs
+
+->Update your local package index:
+sudo apt-get update
+->Install Node.js:
+sudo apt-get install nodejs
+->You will also want to install NPM, which lets you easily manage your different Node.js packages.
+sudo apt-get install npm
+
+nodejs 
+> console.log('hello world');
+hello world
+undefined
+
+
+To check nodejs
+nodejs -v
+
+-------------
+
+Install Webstorm
+
+ls
+cd DOCUMENTS
+cd softwares
+ls
+->WebStorm-173.3942.31  WebStorm-2017.3.1.tar.gz
+cd WebStorm-173.3942.31
+ls
+->bin  build.txt  help  Install-Linux-tar.txt  jre64  lib  license  plugins
+cd bin
+ls
+->format.sh        libyjpagent-linux64.so  webstorm.png
+fsnotifier       libyjpagent-linux.so    webstorm.sh
+fsnotifier64     log.xml                 webstorm.svg
+fsnotifier-arm   printenv.py             webstorm.vmoptions
+idea.properties  restart.py
+inspect.sh       webstorm64.vmoptions
+bash webstorm.sh
+->install
+
+
+npm.init 
+->This create package.json in every folder
+
+------------------
+
+
+To access E drive
+
+sudo ntfsfix /dev/sda7
+
+-------------
+
+
+sudo apt install nodejs-legacy
+
+
+Go to : /media/lcom54/E/nodejs
+
+Run : node app.js
+
+OUtput : Hello World...!!!
+
+------------------------
+
+ECMAScript
+
+https://www.tutorialspoint.com/es6/es6_variables.htm
+
+http://qnimate.com/post-series/ecmascript-6-complete-tutorial/
+
+http://ccoenraets.github.io/es6-tutorial/
+
+-------------------------
+
+Lodash
+
+
+Install Lodash
+
+lcom54@lcom54:/media/lcom54/E/nodejs/node_modules$
+
+$ npm i -g npm
+$ npm i --save lodash
+
+--------------------------
+
+Nodmon
+
+Install Nodmon
+
+lcom54@lcom54:/media/lcom54/E/nodejs/node_modules$
+
+npm install nodemon -g
+
+[or]
+
+npm install nodemon --save
+
+--------------------------
+
+Yargs
+
+npm install yargs@4.7.1 --save
+
+
+-------------------------
+
+Json
+
+------------------------
+
+Request
+
+/media/lcom54/E/nodejs/weatherapp$
+
+npm install request@2.83.0 --save
+
+
+
+-----------------------
+
+Express
+
+url:
+http://expressjs.com
+https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
+https://www.npmjs.com/package/hbs
+https://handlebarsjs.com/
+
+
+
+/media/lcom54/E/nodejs/nodewebsrever$ 
+
+npm install express@4.14.0 --save
+
+
+(a)
+Run: node server.js
+
+Run in browser: http://0.0.0.0:8081/ 
+
+(b)
+Create a web server
+->Here create directory public folder
+app.use(express.static(__dirname + '/public'));
+
+(c)
+Rendering Templates
+Use Handlebars.
+Create a 'views' named directory.
+Save all its files with .hbs extensions ie. all the main pages file and the header and footer file.
+
+Install it.
+/media/lcom54/E/nodejs/nodewebsrever$ 
+
+npm install hbs@4.0.0 --save
+
+
+----------------------------------------
+
+
+Adding Git version
+(A)
+
+url:
+https://docs.gitlab.com/ce/gitlab-basics/start-using-git.html
+
+Install
+
+git-scm.com
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$
+sudo apt install git
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ git version
+Output:
+git version 2.7.4
+
+(B)
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+git init
+
+output:
+Initialized empty Git repository in /media/lcom54/E/nodejs/nodewebsrever/.git/
+
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ ls -a
+Output:
+.   .git          package.json  server.js   views
+..  node_modules  public        server.log
+
+Create gitignore file in Webstorm.
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ git add package.json
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ git add public/
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ git add server.js
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ git add views/
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ git status
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ git add .gitignore
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ git status
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ git config --global user.name "hunny"
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ git config --global user.email "hunny@gmail.com"
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ git commit -m 'Initial Commit'
+
+(C)
+github ssh keys
+
+Generating SSH Keys
+url:
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
+Run in terminal:
+
+1. [Generating a new SSH key]
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+Generating public/private rsa key pair
+Enter a file in which to save the key (/home/you/.ssh/id_rsa): [Press enter]
+Enter passphrase (empty for no passphrase): [Type a passphrase] [Press enter]
+Enter same passphrase again: [Type passphrase again] [Press enter]
+
+2. [check for existing keys]
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+ls -al ~/.ssh
+
+3. [Adding your SSH key to the ssh-agent]
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+eval "$(ssh-agent -s)"
+
+output: Agent pid 17816
+
+4.
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+ssh-add ~/.ssh/id_rsa
+
+output: Identity added: /home/lcom54/.ssh/id_rsa (/home/lcom54/.ssh/id_rsa)
+
+
+(D)
+-->Now Create account in github
+
+Adding a new SSH key to your GitHub account
+url: 
+https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-linux
+
+First Create Account in Github
+url:github.com
+username:hunnyk
+email:lanetteam.hunny@gmail.com
+password:lanetteam1
+
+[1]
+Run:
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$
+sudo apt-get install xclip
+--->This will install xclip
+
+[2]
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$
+xclip -sel clip < ~/.ssh/id_rsa.pub
+--->Copies the contents of the id_rsa.pub file to your clipboard which you will right click and paste after*
+
+NOw login into your github account->Create account->go to settings->Select ssh and gpg keys from the personal settings sidebar menu->Give the title,*right click and paste in the key placeholder->then click Add SSH key button->again goto terminal
+
+[3] To Check if we are authenticated
+Run:
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+ssh -T git@github.com
+
+Output:
+Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+Hi hunnyk! You've successfully authenticated, but GitHub does not provide shell access.
+
+
+(E) 
+Repository
+->Now login into Github.
+->Create New Repository.
+url: https://guides.github.com/activities/hello-world/
+
+[1]
+url:https://github.com/new
+Owner:hunny
+Repository Name : node-course-2-web-server
+
+[2]
+[Now copy from (…or push an existing repository from the command line)]
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+git remote add origin https://github.com/hunnyk/node-course-2-web-server.git
+
+[3]
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+git push -u origin master
+
+[4]
+Username for 'https://github.com': 
+hunnyk
+Password for 'https://hunnyk@github.com': 
+lanetteam1
+
+Output:
+Counting objects: 14, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (14/14), 2.16 KiB | 0 bytes/s, done.
+Total 14 (delta 0), reused 0 (delta 0)
+To https://github.com/hunnyk/node-course-2-web-server.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+[5]
+Now refresh from browser:->
+https://github.com/hunnyk/node-course-2-web-server
+
+
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ git add server.js
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ git add views/
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ git status
+
+
+----------------
+
+git checkout -b developer1:
+[It creates developer1 branch as well as goes to developer1 branch]
+git checkout developer1:
+[It goes to the developer1 branch]
+
+git branch:
+[It list all the branches which are being created in the git]
+
+
+git add:
+[It add all the folders/files from our desktop to the git]
+
+git commit -m "first commit"
+git push origin developer1
+[This will finally add to the git]
+
+---->Creating branch name developer1 and adding demo.txt file to it.
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+git checkout -b developer1
+
+output:
+Switched to a new branch 'developer1'
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+gedit demo1.txt
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+git status
+
+output:
+On branch developer1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	demo1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+git add .
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+git commit -m "This is first commit"
+
+output:
+[developer1 2607a8f] This is first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 demo1.txt
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+git branch
+* developer1
+  master
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+git push origin developer1 
+Username for 'https://github.com': hunnyk
+Password for 'https://hunnyk@github.com': lanetteam1
+
+output:
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 275 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/hunnyk/node-course-2-web-server.git
+ * [new branch]      developer1 -> developer1
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+git checkout master
+
+output:
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+----------------------
+
+To remove demo1.txt from branch developer1
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+git checkout developer1 
+
+output:
+Switched to branch 'developer1'
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+git rm -r demo1.txt
+
+output:
+rm 'demo1.txt'
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+git commit -m "second commit"
+
+output:
+[developer1 1a757ab] second commit
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 demo1.txt
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodewebsrever$ 
+git push origin developer1 
+Username for 'https://github.com': hunnyk
+Password for 'https://hunnyk@github.com': 
+
+output:
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 215 bytes | 0 bytes/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/hunnyk/node-course-2-web-server.git
+   2607a8f..1a757ab  developer1 -> developer1
+
+-----------------------------------------------------------------------------
+
+Merge
+
+url:
+https://confluence.atlassian.com/bitbucket/use-a-git-branch-to-merge-a-file-681902555.html
+https://confluence.atlassian.com/bitbucket/pull-changes-from-your-git-repository-on-bitbucket-cloud-750395754.html
+
+lcom54@lcom54:/var/www/html/repo1$ git checkout developer1
+Already on 'developer1'
+lcom54@lcom54:/var/www/html/repo1$ gedit demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch developer1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	demo1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+lcom54@lcom54:/var/www/html/repo1$ git add demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git commit -m "fourth commit"
+[developer1 cbd4928] fourth commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git push origin developer1
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 313 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:hunnyk/repo1.git
+   e42088c..cbd4928  developer1 -> developer1
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch developer1
+nothing to commit, working directory clean
+lcom54@lcom54:/var/www/html/repo1$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+lcom54@lcom54:/var/www/html/repo1$ git merge developer1
+Updating e0cd644..cbd4928
+Fast-forward
+ demo1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+lcom54@lcom54:/var/www/html/repo1$ git commit -m "fifth commit"
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+lcom54@lcom54:/var/www/html/repo1$ git push origin master
+Total 0 (delta 0), reused 0 (delta 0)
+To git@github.com:hunnyk/repo1.git
+   e0cd644..cbd4928  master -> master
+
+
+
+-----------------------------------------------------------------------------
+
+lcom54@lcom54:/var/www/html/repo1$ sudo apt install git
+[sudo] password for lcom54: lanetteam1
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+git is already the newest version (1:2.7.4-0ubuntu1.3).
+The following package was automatically installed and is no longer required:
+  libmircommon5
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 270 not upgraded.
+lcom54@lcom54:/var/www/html/repo1$ git version
+git version 2.7.4
+lcom54@lcom54:/var/www/html/repo1$ git init
+Initialized empty Git repository in /var/www/html/repo1/.git/
+lcom54@lcom54:/var/www/html/repo1$ ls -a
+.  ..  first.js  .git  greetings.txt
+lcom54@lcom54:/var/www/html/repo1$ git add .
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   first.js
+	new file:   greetings.txt
+
+lcom54@lcom54:/var/www/html/repo1$ git config --global user.name "hunny"
+lcom54@lcom54:/var/www/html/repo1$ git config --global user.email "hunny@gmail.com"
+lcom54@lcom54:/var/www/html/repo1$ git commit -m "first commit"
+[master (root-commit) e0cd644] first commit
+ 2 files changed, 6 insertions(+)
+ create mode 100644 first.js
+ create mode 100644 greetings.txt
+
+[Create repositroy from github.com , login into your account]
+owner:hunny
+repository name:repo1
+
+lcom54@lcom54:/var/www/html/repo1$ git remote add origin git@github.com:hunnyk/repo1.git
+lcom54@lcom54:/var/www/html/repo1$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 361 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To git@github.com:hunnyk/repo1.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+lcom54@lcom54:/var/www/html/repo1$ git checkout -b developer1
+Switched to a new branch 'developer1'
+lcom54@lcom54:/var/www/html/repo1$ gedit demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch developer1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	demo1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+lcom54@lcom54:/var/www/html/repo1$ git add demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git commit -m "second commit"
+[developer1 be42141] second commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git push origin developer1
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 318 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:hunnyk/repo1.git
+ * [new branch]      developer1 -> developer1
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch developer1
+nothing to commit, working directory clean
+lcom54@lcom54:/var/www/html/repo1$ rm -r demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git rm -r demo1.txt
+rm 'demo1.txt'
+lcom54@lcom54:/var/www/html/repo1$ git commit -m "third commit"
+[developer1 e42088c] third commit
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git push origin developer1
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 260 bytes | 0 bytes/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To git@github.com:hunnyk/repo1.git
+   be42141..e42088c  developer1 -> developer1
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch developer1
+nothing to commit, working directory clean
+
+------------------------------------------------------------------------------------------------
+
+Folder in pc which is to be uploaded in github-->/var/www/html/repo1
+
+lcom54@lcom54:/var/www/html/repo1$ sudo apt install git
+[sudo] password for lcom54: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+git is already the newest version (1:2.7.4-0ubuntu1.3).
+The following package was automatically installed and is no longer required:
+  libmircommon5
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 270 not upgraded.
+lcom54@lcom54:/var/www/html/repo1$ git version
+git version 2.7.4
+lcom54@lcom54:/var/www/html/repo1$ git init
+Initialized empty Git repository in /var/www/html/repo1/.git/
+lcom54@lcom54:/var/www/html/repo1$ ls -a
+.  ..  first.js  .git  greetings.txt
+lcom54@lcom54:/var/www/html/repo1$ git add .
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   first.js
+	new file:   greetings.txt
+
+lcom54@lcom54:/var/www/html/repo1$ git config --global user.name "hunny"
+lcom54@lcom54:/var/www/html/repo1$ git config --global user.email "hunny@gmail.com"
+lcom54@lcom54:/var/www/html/repo1$ git commit -m "first commit"
+[master (root-commit) e0cd644] first commit
+ 2 files changed, 6 insertions(+)
+ create mode 100644 first.js
+ create mode 100644 greetings.txt
+lcom54@lcom54:/var/www/html/repo1$ git remote add origin git@github.com:hunnyk/repo1.git
+lcom54@lcom54:/var/www/html/repo1$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 361 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To git@github.com:hunnyk/repo1.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+lcom54@lcom54:/var/www/html/repo1$ git checkout -b developer1
+Switched to a new branch 'developer1'
+lcom54@lcom54:/var/www/html/repo1$ gedit demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch developer1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	demo1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+lcom54@lcom54:/var/www/html/repo1$ git add demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git commit -m "second commit"
+[developer1 be42141] second commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git push origin developer1
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 318 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:hunnyk/repo1.git
+ * [new branch]      developer1 -> developer1
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch developer1
+nothing to commit, working directory clean
+lcom54@lcom54:/var/www/html/repo1$ rm -r demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git rm -r demo1.txt
+rm 'demo1.txt'
+lcom54@lcom54:/var/www/html/repo1$ git commit -m "third commit"
+[developer1 e42088c] third commit
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git push origin developer1
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 260 bytes | 0 bytes/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To git@github.com:hunnyk/repo1.git
+   be42141..e42088c  developer1 -> developer1
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch developer1
+nothing to commit, working directory clean
+lcom54@lcom54:/var/www/html/repo1$ git pull origin developer1
+From github.com:hunnyk/repo1
+ * branch            developer1 -> FETCH_HEAD
+Already up-to-date.
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch developer1
+nothing to commit, working directory clean
+lcom54@lcom54:/var/www/html/repo1$ git checkout developer1
+Already on 'developer1'
+lcom54@lcom54:/var/www/html/repo1$ gedit demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch developer1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	demo1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+lcom54@lcom54:/var/www/html/repo1$ git add demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git commit -m "fourth commit"
+[developer1 cbd4928] fourth commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git push origin developer1
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 313 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:hunnyk/repo1.git
+   e42088c..cbd4928  developer1 -> developer1
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch developer1
+nothing to commit, working directory clean
+lcom54@lcom54:/var/www/html/repo1$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+lcom54@lcom54:/var/www/html/repo1$ git merge developer1
+Updating e0cd644..cbd4928
+Fast-forward
+ demo1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 demo1.txt
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+lcom54@lcom54:/var/www/html/repo1$ git commit -m "fifth commit"
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+lcom54@lcom54:/var/www/html/repo1$ git push origin master
+Total 0 (delta 0), reused 0 (delta 0)
+To git@github.com:hunnyk/repo1.git
+   e0cd644..cbd4928  master -> master
+lcom54@lcom54:/var/www/html/repo1$ git checkout developer
+error: pathspec 'developer' did not match any file(s) known to git.
+lcom54@lcom54:/var/www/html/repo1$ git checkout developer1
+Switched to branch 'developer1'
+lcom54@lcom54:/var/www/html/repo1$ gedit demo2.txt
+lcom54@lcom54:/var/www/html/repo1$ git status
+On branch developer1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	demo2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+lcom54@lcom54:/var/www/html/repo1$ git add demo2.txt
+lcom54@lcom54:/var/www/html/repo1$ git commit -m "fifth commit"
+[developer1 9719a55] fifth commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 demo2.txt
+lcom54@lcom54:/var/www/html/repo1$ git push origin developer1
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 342 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:hunnyk/repo1.git
+   cbd4928..9719a55  developer1 -> developer1
+lcom54@lcom54:/var/www/html/repo1$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+lcom54@lcom54:/var/www/html/repo1$ git merge developer1
+Updating cbd4928..9719a55
+Fast-forward
+ demo2.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 demo2.txt
+lcom54@lcom54:/var/www/html/repo1$ git checkout developer1
+Switched to branch 'developer1'
+lcom54@lcom54:/var/www/html/repo1$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+lcom54@lcom54:/var/www/html/repo1$ git merge developer1 
+Already up-to-date.
+lcom54@lcom54:/var/www/html/repo1$ git commit -m "sixth commit"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+lcom54@lcom54:/var/www/html/repo1$ git push origin master
+Total 0 (delta 0), reused 0 (delta 0)
+To git@github.com:hunnyk/repo1.git
+   cbd4928..9719a55  master -> master
+
+-------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
+Mongodb in nodejs
+
+
+
+url:
+https://www.w3schools.com/nodejs/nodejs_mongodb.asp
+https://github.com/mongodb/node-mongodb-native
+http://www.tutorialsteacher.com/nodejs/access-mongodb-in-nodejs
+
+sir:https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/
+
+In terminal:
+
+lcom54@lcom54:/media$ 
+cd /media/lcom54/
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodetodoapi$ 
+sudo apt install mongodb-server
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodetodoapi$ 
+npm init
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodetodoapi$ 
+mongod -dbpath /media/Icom54/E/nodejs/nodetodoapi
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodetodoapi$ 
+node mongodb-connect.js 
+
+OUtput:
+Connected to MongoDB server
+
+-----
+
+
+download "ROBOMONGO" to see database which is created through mongo:
+url:
+https://www.mongodb.com/download-center?jmp=nav#community
+https://robomongo.org/download
+
+Create a folder named mongo and save the downloaded file here
+
+lcom54@lcom54:/media/lcom54/E/mongodb/bin$ cd ../..
+lcom54@lcom54:/media/lcom54/E$ cd mongo/bin
+lcom54@lcom54:/media/lcom54/E/mongo/bin$ ls
+bsondump         mongod       mongofiles   mongoreplay   mongostat
+install_compass  mongodump    mongoimport  mongorestore  mongotop
+mongo            mongoexport  mongoperf    mongos
+
+lcom54@lcom54:/media/lcom54/E/mongo/bin$ node
+> 
+(To exit, press ^C again or type .exit)
+> 
+
+
+lcom54@lcom54:/media/lcom54/E/mongo/bin$ ./mongod --dbpath ~/mongo-data
+
+lcom54@lcom54:/media/lcom54/E/mongo/bin$ ./mongo
+MongoDB shell version v3.6.3
+connecting to: mongodb://127.0.0.1:27017
+MongoDB server version: 2.6.10
+WARNING: shell and server versions do not match
+Welcome to the MongoDB shell.
+For interactive help, type "help".
+For more comprehensive documentation, see
+	http://docs.mongodb.org/
+Questions? Try the support group
+	http://groups.google.com/group/mongodb-user
+> db.ToDos.insert({text:'Film new node course'})
+WriteResult({ "nInserted" : 1 })
+> db.ToDos.find()
+{ "_id" : ObjectId("5aa0e62accf8bb83a3a84f33"), "text" : "Film new node course" }
+
+
+
+-----------------------------------------------
+
+
+Mongoose:
+
+url:
+http://mongoosejs.com/
+https://www.tutorialspoint.com/nodejs_online_training/nodejs_mongoose.asp
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodetodoapi$ 
+npm i mongoose@4.5.9 --save
+
+
+---------------------------------------------------
+
+POSTMAN:
+
+refer to folder nodetodoapi->server folders from nodejs
+
+imp video:
+075 List Resources - GET _todos.mp4
+
+doubt in video:
+074 Testing POST _todos.mp4
+
+url:
+https://www.getpostman.com/apps
+https://maps.googleapis.com/maps/api/geocode/json?address=1301%20lombard%20street%20philadelphia
+
+Install express
+Install body parser
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodetodoapi/server$ 
+npm i express@4.14.0 body-parser@1.15.2 --save
+
+
+Go to postman
+
+For Update:
+Use patch
+Icom54@lcom54:/media/lcom54/E/nodejs/nodetodoapi$ 
+npm i --save lodash@4.15.0
+
+-----------------------------------------------------------------------
+
+Validator
+
+url:
+https://www.npmjs.com/package/validator
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodetodoapi$ npm install validator@5.6.0 --save
+
+---------------------------------------------------------------------------------------
+
+Crypto
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodetodoapi$ 
+npm i crypto-js@3.1.6 --save
+
+lcom54@lcom54:/media/lcom54/E/nodejs/nodetodoapi$ 
+npm i jsonwebtoken@7.1.9 --save
+
+Chech in : https://jwt.io/
+Here, paste the token being generated
+
+
+---------------------------------------------------------------------------------
+For Postman
+Insert
+
+localhost:3000/addreg
+
+{
+	"firstname":"hunny",
+	"lastname":"kikaganesh",
+	"address":"parlepoint",
+	"email":"hunny@gmail.com",
+	"username":"hunnyk",
+	"password":123456,
+	"gender":"female"
+}
+
+
+Delete
+
+localhost:3000/delete?id=5aa650bc6810f24f73f8b1cf
+
+EDit
+http://localhost:3000/edit/5aa6517b6810f24f73f8b1d1
+
+---------------------------------------------------------------------------------
+
+{
+	"id":1,
+	"name":"nidhi",
+	"address":"bhatar"
+}
+
+
+//getall
+POstman
+localhost:8080/getall
+
+----------------------------------------
+When server is stopped:
+
+netstat -tulpn 
+kill -9 7432
+
+-----------------------------------
+
+Run for php with nodejs
+
+http://localhost/nodejs/nodesqldemo/main.php
+
+----------------------------------------
+
+
+
+Image upload
+
+https://evdokimovm.github.io/javascript/nodejs/expressjs/multer/2016/11/03/Upload-files-to-server-using-NodeJS-and-Multer-package-filter-upload-files-by-extension.html
+
+
+
+https://gist.github.com/evdokimovm/fa970b203bf4712bef4058733d9aa308
+
+------------------
+
+localhost:8000/customer_add
+
+{
+	"customer_name":"hunny",
+	"email":"email",
+	"password":"123465",
+	"contact":"2254900",
+	"address":"parlepoint"
+}
+
+
+--------------------------
+
+How to Auto Increment ID Numbers with Letters and Numbers
+
+http://technoetics.in/handling-user-login-registration-using-nodejs-mysql/
+https://medium.com/technoetics/handling-user-login-and-registration-using-nodejs-and-mysql-81b146e37419
+
+------------
+
+ankita
+
+http://192.168.200.163/phpmyadmin
+
+
+--------------
+
+CREATE TABLE myItems (
+    id INT NOT NULL AUTO_INCREMENT,
+    prefix CHAR(30) NOT NULL,
+    PRIMARY KEY (id, prefix),
+    name VARCHAR(10));
+
+
+SELECT CONCAT(prefix, LPAD(id, 5, '0')) AS full_key FROM myItems;3
+SELECT CONCAT('A', CAST(quote_number AS CHAR)) AS quote_number FROM project;
+
+**
+SELECT CONCAT('A',LPAD(quote_number, 4, '0')) AS quote_number FROM project;
+
+
+Insert-concate query
+
+INSERT INTO `project` (`quote_number`, `project_name`, `customer_id`) VALUES ('SELECT CONCAT(`A`,LPAD(`quote_number`, 5, `0`)) AS `quote_number` FROM `project`', 'ppp', '81');
+
+INSERT INTO `project` (`quote_number`, `project_name`, `customer_id`) VALUES ('(SELECT CONCAT(`A`,LPAD(`quote_number`, 5, `0`)) AS `quote_number` FROM `project`)', 'ppp', '81');
+
+
+$.ajax({
+               type: 'GET',
+               url: 'http://localhost:3000/carrier_id',
+               success: function (data) {
+                   console.log(data);
+                   var html;
+                   $.each(data, function(i, item) {
+                       html=item.carrier_id;
+                   });
+                   var no=Number(html.substr(1));
+                   no=no+1;
+                   var id=no.toString();
+                   var len=id.length;
+                   console.log(len);
+                   var cid="C";
+                   for(i=0;i<5-len;i++)
+                   {
+                       cid+="0";
+                   }
+                   cid+=id;
+                   console.log(cid);
+                   //$( "#cid" ).value(cid);
+                   document.getElementById('cid').value=cid;
+               }
+           });
+
+
+app.get('/carrier_id',(req,res)=>{
+   con.query("SELECT * FROM `carrier` ORDER BY `carrier_id` DESC LIMIT 1",(err,result,feilds)=>{
+       if(err){
+           console.log(err);
+           return res.send('error in selecting');
+       }
+       console.log(result);
+       return res.send(result);
+   });
+});
+
+
+--------
+
+ var postData  = req.body;
+    console.log(postData);
+    mc.query('INSERT INTO store SET ?', postData, (error, results, fields) => {
+        if (error) throw error;
+        return res.send(results);
+    });
+
+
+{
+	"store_number":"201",
+	"address":"abc",
+	"city_id":"1",
+	"state_id":"1",
+	"zipcode":"777"
+	
+}
+
+----------------------------------
+pull
+
+lcom54@lcom54:~$ cd /var/www/html
+lcom54@lcom54:/var/www/html$ cd vendor-system-php/
+lcom54@lcom54:/var/www/html/vendor-system-php$ git checkout develop
+Switched to branch 'develop'
+lcom54@lcom54:/var/www/html/vendor-system-php$ git pull origin develop
+Password for 'http://lanetteam.hunny@lanetteam.com:81': 
+remote: Counting objects: 48, done.
+remote: Compressing objects: 100% (38/38), done.
+remote: Total 48 (delta 13), reused 13 (delta 0)
+Unpacking objects: 100% (48/48), done.
+From http://lanetteam.com:81/lanet-trainee/vendor-system-php
+ * branch            develop    -> FETCH_HEAD
+   def576c..44b0491  develop    -> origin/develop
+Updating 3f696a2..44b0491
+Fast-forward
+ backend/.gitignore                              |   2 +
+ backend/component/agent/agent_controller.js     | 163 +++++
+ backend/component/carrier/carriercontroller.js  | 105 ++++
+ backend/component/contact/contact_controller.js |  60 ++
+ backend/config/db.js                            |  14 +
+ backend/package-lock.json                       | 439 +++++++++++++
+ backend/package.json                            |   7 +-
+ backend/routes/index.js                         |  34 +
+ backend/vendor_api.js                           | 100 ---
+ backend/vendorapi.js                            |  14 +
+ frontend/{first.php => agent_registration.php}  | 784 +++++++++++++-----------
+ frontend/footer.php                             |  60 ++
+ frontend/header.php                             |   4 +-
+ frontend/login.php                              | 149 +++++
+ 14 files changed, 1463 insertions(+), 472 deletions(-)
+ create mode 100644 backend/.gitignore
+ create mode 100644 backend/component/agent/agent_controller.js
+ create mode 100644 backend/component/carrier/carriercontroller.js
+ create mode 100644 backend/component/contact/contact_controller.js
+ create mode 100644 backend/config/db.js
+ create mode 100644 backend/package-lock.json
+ create mode 100644 backend/routes/index.js
+ delete mode 100644 backend/vendor_api.js
+ create mode 100644 backend/vendorapi.js
+ rename frontend/{first.php => agent_registration.php} (72%)
+ create mode 100644 frontend/login.php
+lcom54@lcom54:/var/www/html/vendor-system-php$ 
+
+
+-----------------------------------
+Auto assign
+import csv file in php
+
+
+https://stackoverflow.com/questions/31651931/how-to-import-excel-file-xlsx-to-mysql-using-nodejs
+
+http://netai-nayek.blogspot.in/2014/08/export-database-data-to-excel-file-in.html
+
+https://gist.github.com/dylants/6617821
+
+http://programmerblog.net/generate-csv-using-nodejs/
+
+http://kodeinfo.com/post/export-html-table-data-to-excel-or-csv-and-download-using-php-mysql
+
+------------------------------------------
+
+Export
+
+npm install csv-express --save
+
+
+export rate to csv
+http://programmerblog.net/generate-csv-using-nodejs/
+
+------------------
+
+Import
+
+http://programmerblog.net/import-csv-file-using-nodejs/
+
+https://stackoverflow.com/questions/31651931/how-to-import-excel-file-xlsx-to-mysql-using-nodejs
+
+http://board.phpbuilder.com/showthread.php?10376604-PHP-import-CSV-and-skip-headers
+
+
+app.get('/import',(req,res,next) => {
+    var  storelist  = [];
+
+    var csvStream = csv()
+        .on("data", (data)=>{
+            // console.log(data[10].length);
+            // for (i=5; i<data[5].length; i++){
+            //     var store_number=data[0];
+            //     var address=data[1];
+            //     var city_id=data[2];
+            //     var state_id=data[3];
+            //     var zipcode=data[4];
+            // }
+            // console.log(data);
+            if($row == 1){
+                $row++; // noinspection JSAnnotator
+                continue;
+            }
+            var store_number=data[0];
+            var address=data[1];
+            var city_id=data[2];
+            var state_id=data[3];
+            var zipcode=data[4];
+
+            mc.query("INSERT INTO store (store_number,address,city_id,state_id,zipcode) values("+store_number+",'"+address+"',"+city_id+","+state_id+","+zipcode+")",(error,results, fields) => {
+                if (error) throw error;
+                return res.send(results);
+            });
+        }).on("end", function(){
+            console.log(" End of file import");
+        });
+    stream.pipe(csvStream);
+    res.json({success : "Data imported successfully.", status : 200});
+});
+
+google search
+how to skip header content while importing csv file in mysql
+
+----------------------------------------------------------------------
+
+Login 
+
+$(document).ready(function() {
+            $("#login").click(function () {
+                //debugger;
+                  var email = $("#email").val();
+                var password = $("#password").val();
+                 $.ajax({
+                    type: 'POST',
+                    url: "http://192.168.200.163:8000/agent_login",
+                     //contentType: "application/json",
+                    data: {email:email,password:password},
+                    success: function (data) {
+                        if(data)
+                        {
+                            //console.log(data);
+                            alert(JSON.stringify(data));
+                           sessionStorage.setItem('user', JSON.stringify(data));
+                       //   alert(sessionStorage.getItem('user')[0].agent_name);
+                        //  console.log(sessionStorage.getItem('user'));
+                         //   alert();
+                            window.location="index.php";
+                        }
+                        else
+                        {
+                            alert("incorrect");
+                        }
+                    }
+                });
+                // show();
+            });
+        });
+exports.agent_login=(req,res)=>{
+    var email=req.body.email;
+    var password=req.body.password;
+    var a_login="select * from agent where email='"+email+"' and password='"+password+"'";
+    console.log(a_login);
+    con.query(a_login,(err,result)=>{
+        if(err){
+            res.send("error");
+        }
+        console.log(result);
+        if(result=="")
+        {
+            res.send("error");
+        }
+        else
+        {
+            res.send(result);
+        }
+    })
+};
+<script>
+    if(!sessionStorage['user'])
+    {
+        window.location="login.php";
+    }
+    jQuery(document).ready(function(){
+        var agent=JSON.parse(sessionStorage.getItem('user'));
+        var agent_name=agent[0].agent_name;
+        //  var d="http://localhost:7000/"+user[0].image;
+        // alert(d);
+        //$('#agent_name').val("ghfg");
+        $('.t1class').html(agent_name);
+    })
+    //document.getElementById('t1').innerHTML="sas";
+    // document.getElementById('im').src=d;
+</script>
+
+
+//////
+
+WOrking import csv api
+
+//import
+app.get('/import',(req,res,next) => {
+    var  storelist  = [];
+    var flag=0;
+    var csvStream = csv()
+        .on("data", (data)=> {
+            if (flag == 0) {
+                flag = 1;
+            }
+            else {
+                var store_number = data[0];
+                var address = data[1];
+                var city_id = data[2];
+                var state_id = data[3];
+                var zipcode = data[4];
+                mc.query("INSERT INTO store (store_number,address,city_id,state_id,zipcode) values(" + store_number + ",'" + address + "'," + city_id + "," + state_id + "," + zipcode + ")", (error, results, fields) => {
+                    if (error) throw error;
+                });
+            }
+        }).on("end", function(){
+            console.log(" End of file import");
+        });
+    stream.pipe(csvStream);
+   return res.json({success : "Data imported successfully."});
+});
+
+---------------------
+
+rate_maintain#18
+
+http://lanetteam.com:81/lanet-trainee/vendor-system-php/merge_requests/17
+
+customer#8
+
+http://lanetteam.com:81/lanet-trainee/vendor-system-php/merge_requests/19
+
+----------------
+NOtification
+
+SELECT count('store_id'),`flag` FROM `store` GROUP BY `flag`;
+SELECT count('store_id'),`flag` FROM `store` where flag=0 GROUP BY `flag`;
+
+How can I align bootstrap's badge with AJAX inside the <li>
+
+How to bind the count of total rows of a table in to a bootstrap badge?
+
+https://stackoverflow.com/questions/41518873/notification-system-jquery-php-and-mysql
+
+----------------------
+
+pull from particular branch
+
+git pull origin store_api#15
+-------------------------------------
+
+Image Upload
+
+const fileup=require("express-fileupload");
+app.use(fileup());
+if(req.files.sample==undefined)
+     return res.status(400).send('no found');
+
+ var f=req.files.sample;
+//  console.log(f);
+ // let uploadpath=path.join("/var/www/html/img/"+f.name);
+ var uploadpath=path.join(__dirname+"/img/"+f.name);
+
+
+ f.mv(uploadpath);
+// res.status(200).send('success');
+//    console.log(uploadpath);
+
+
+  var s1="insert into ab(name,password,city,image)values('"+req.body.name+"','"+req.body.password+"','"+req.body.city+"','"+f.name+"')";
+
+
+
+
+
+$("#bu").click(function () {
+        // alert();
+         var form = new FormData();
+         var name = $("#name").val();
+         var password = $("#password").val();
+         var city = $("#city").val();
+         var file = document.getElementById('sample').files[0];
+        // alert(file);
+         if (file) {
+             form.append('name', name);
+             form.append('password', password);
+             form.append('city', city);
+             form.append('sample', file);
+            // alert(form);
+         }
+
+
+         $.ajax({
+             type: 'POST',
+             url: "http://192.168.200.29:7000/insert",
+             data: form,
+             cache: false,
+             contentType: false, //must, tell jQuery not to process the data
+             processData: false,
+             success: function (data) {
+                 if(data.errors)
+                 {
+                     $("#err").html('must be username is minimum 3 character');
+
+                 }
+                 else
+                 {
+                     $('#err').empty();
+                     my();
+                 }
+
+             }
+
+         });
+     });
+<form method="post" class="form" action="" name="myform" id="myform" enctype="multipart/form-data">
+
+<input type="file" name="sample" id="sample">
+
+---------------------
+store
+
+http://lanetteam.com:81/lanet-trainee/vendor-system-php/merge_requests/25
+
+Customer login
+
+http://lanetteam.com:81/lanet-trainee/vendor-system-php/merge_requests/26
+----------
+Changerate maintain#18
+http://lanetteam.com:81/lanet-trainee/vendor-system-php/merge_requests/29
+
+
+-----------------------------------
+
+https://www.hacksparrow.com/handle-file-uploads-in-express-node-js.html
+
+---------
+
+http://192.168.200.163/phpmyadmin
+
+http://192.168.200.163/vendor_main/frontend/admin/index.php
+
+------------
+
+if(req.files.product==undefined)
+       return res.status(500).send('file not found');
+   var f=req.files.product;
+   var file=f.name;
+   var ext=path.extname(file);
+   var uploadpath="";
+
+   var filename="productlist-"+Date.now()+ext;
+   console.log("file:"+filename);
+
+-------------------------------
+
+if(req.files.product==undefined)
+       return res.status(500).send('file not found');
+   var f=req.files.product;
+   var file=f.name;
+   var ext=path.extname(file);
+   var uploadpath="";
+
+   var filename="productlist-"+Date.now()+ext;
+   console.log("file:"+filename);
+   if(ext==".csv"){
+       uploadpath=path.join("Attachment/"+filename);
+       var fileuploaded = f.mv(uploadpath);
+       console.log(uploadpath);
+       if(fileuploaded){
+           console.log("upload successfully");
+                   var stream =fs.createReadStream(uploadpath);
+
+                   //var  storelist  = [];
+                   // var temp=0;
+                   csv.fromStream(stream, {headers : true})
+                       .on("data", function(data){
+                           console.log('asdsad');
+                           // console.log(data.length);
+
+
+                               console.log('esfd');
+                               var product_name = data[0];
+                               var regular_price = data[1];
+                               var sale_price = data[2];
+                               var category_id = data[3];
+                               var subCategory_id = data[4];
+                               var product_image = data[5];
+                               var description = data[6];
+                               var status = data[7];
+                               var barcode = data[8];
+                               var upload_date_time = data[9];
+                               var manufacture_id = data[10];
+                               var flag = data[11];
+
+                               console.log("");
+                               con.query("INSERT INTO tblproduct(product_name,regular_price,sale_price,category_id,subCategory_id,product_image,description,status,barcode,upload_date_time,manufacture_id,flag)values(" + product_name + ",'" + regular_price + "'," + sale_price + "," + category_id + "," + subCategory_id + "," + product_image + "," + description + "," + status + "," + barcode + "," + upload_date_time + "," + manufacture_id + "," + flag + ")", (error, results, fields) => {
+                                   if (error) throw error;
+                                   else console.log("insert store");
+                               });
+                           // }
+                       })
+                       .on("end", function(){
+                           console.log(" End of file import");
+                       });
+                   return res.json({success : "Data imported successfully."});
+
+                   res.send("New project added successfully into system...!");
+               }
+
+       }else {
+       res.send("uploading error");
+   }
+
+--------------
+
+http://lanetteam.com:3010/index.php
+
+---------------------
+
+MY validation
+
+//Validation for name
+        $('#customer_name').keyup(function() {
+            var customer_name = $("#customer_name").val();
+            customer_name( customer_name.replace(/[^a-zA-Z]/g, function()
+                { $("#err3").html("Please enter alphabets only"); return ''; }) 
+            );
+        });
+
+
+        //Validation for email
+        function ValidateEmail(email) {
+            var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+            return expr.test(email);
+        };
+
+        $("#email").keyup(function () {
+            //alert('here');
+            var email = $("#email").val();
+            if(ValidateEmail(email)){
+                $("#err1").html("");
+            }
+            else
+            {
+                $("#err1").html("Please Enter valid Email");
+            }
+
+        });
+
+        //Validation for password
+        $("#password").keyup(function () {
+            var password = $("#password").val();
+            if(password.length>=8){
+                $("#err").html("");
+            }
+            else
+            {
+               $("#err").html("Please must be enter 8 character");
+            }
+
+        });
+
+        //Validaton for contact
+        $("#contact").on('keyup blur', function (e) {
+           if ($(this).val().length > 0) {
+                var iLength = parseInt($(this).val());
+                switch (true) {
+                    case !$.isNumeric($(this).val()):
+                        $("#err2").html("Please enter a numeric value.");
+                        break;
+
+                    case (iLength  < 5) || (iLength  > 10):
+                        $("#err2").html("Length must be a numeric value between 5 and 10.");
+                        break;
+                    default:
+                }
+            }
+        });
+
+--------------------
+
+if(agent_name && street && zipcode && classification && email &&  password && cell && company_name !="")
+           {
+               $.ajax({
+                   type: 'POST',
+                   url: "http://192.168.200.163:8000/register",
+                   data: {agent_id:agent_id,agent_name:agent_name,state_id:state_id,city_id:city_id,street:street,zipcode:zipcode,classification:classification,email:email,password:password,landline:landline,cell:cell,company_name:company_name,notes_flag:notes_flag},
+                   success: function (data) {
+                       if(data=="error")
+                       {
+                           window.location = "agent_registration.php";
+                       }
+                       else
+                       {
+                           window.location = "login.php";
+
+                       }
+
+                   }
+
+
+               });
+           }
+           else
+           {
+               swal("Validate","Please Fill the all field!", {
+                   icon: "error",
+               });
+           }
+
+
+--------------------
+
+admin
+
+http://localhost/vendor-system-php/frontend/admin/admin_dashboard.php
+
+--------
+.jumbotron.agent {
+    background: orangered;
+}
+
+.jumbotron.agent {
+    background: turquoise;
+}
+
+teal
+steelblue
+
+
+----------------
+SELECT a.agent_id,a.agent_name,c.carrier_id,c.carrier_name,at.* from agent as a join attachments as at on a.agent_id=at.agent_carrier_id join carrier as c on c.carrier_id=at.agent_carrier_id where at.agent_carrier_id=a.agent_id and at.attachment_id=c.carrier_id;
+
+select a.agent_id,a.agent_name,c.carrier_name,att.* from agent as a,carrier as c, attachments as att where a.agent_id=att.agent_carrier_id
+
+
+
+select * from agent as a, carrier as c, attachments as at where a.agent_id=at.agent_carrier_id and c.carrier_id=at.agent_carrier_id
+
+Working:
+
+SELECT
+ agent.agent_name,carrier.carrier_name,
+  attachments.attachment_name,attachments.attachment_message
+FROM
+  attachments 
+  LEFT JOIN agent ON agent.agent_id = attachments.agent_carrier_id 
+  LEFT JOIN carrier ON carrier.carrier_id=attachments.agent_carrier_id
+
+  

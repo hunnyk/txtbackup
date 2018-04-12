@@ -1,0 +1,155 @@
+https://angular.io/guide/quickstart
+
+https://programmingwithmosh.com/angular/angular-4-tutorial/
+
+https://stackblitz.com/angular/banxqggqvld?file=src%2Fapp%2Fheroes%2Fheroes.component.html
+
+https://code.tutsplus.com/tutorials/beginners-guide-to-angular-4-components--cms-29674
+https://cli.angular.io/
+
+https://material.angular.io
+
+*imp
+https://stackoverflow.com/questions/359047/detecting-request-type-in-php-get-post-put-or-delete
+https://www.concretepage.com/angular-2/angular-2-input-and-output-example
+https://github.com/PritiMaurya/crud
+
+http://192.168.200.1:1000
+------
+lcom54@lcom54:~$
+sudo npm install -g @angular/cli
+
+[To check it is installed]
+lcom54@lcom54:~$ ng -v
+
+[To create new project]
+ng new my-app
+
+[To start the project]
+cd my-app
+ng serve --open
+
+[To run,by default port is 4200]
+http://localhost:4200/
+
+[To create new componenet]
+ng generate component heroes
+
+
+[If want to change port]
+ng serve --host 0.0.0.0 –port 4205
+
+[To install bootstrap]
+npm install --save bootstrap
+[then do changes in .angular-cli.json file in styles]
+
+
+------------------------------
+
+Google Search:
+Integrating an Angular2 app with a PHP app
+
+------------------------------
+
+<?php
+$postdata = file_get_contents("php://input");
+$request = json_decode($postdata);
+header('Content-type: application/json');
+header("Access-Control-Allow-Origin: *");
+header('Access-Control-Allow-Headers: X-Requested-With, content-type, access-control-allow-origin, access-control-allow-methods, access-control-allow-headers');
+$con = mysqli_connect("localhost", "root", "", "angulardb");
+$sql="INSERT INTO stud( snm, sad) VALUES ('".$request->nm."','".$request->ad."')";
+$r=mysqli_query($con,$sql);
+echo json_encode($request->nm);
+?>
+
+--------
+
+let headers = new HttpHeaders();
+   headers = headers.set('Content-Type', 'application/json; charset=utf-8');
+   return this.http.post("http://localhost/sahilphp/angulartry.php",data,{headers: headers}).subscribe((da)=>{
+     console.log(da);
+   });
+
+-------
+Date: 6_3_fri
+
+ "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+
+<nav class="navbar navbar-expand">
+  <div class="container-fluid">
+    <div class="navbar-expand">
+      <a href="#" class="navbar-brand">Recipe Book</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Shopping List</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" role="button">Manage</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Save Date</a></li>
+            <li><a href="#">Fetch Data</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+---------------------
+
+Date: 9_3_mon
+
+HostBinding and HostListener
+
+https://stackoverflow.com/questions/37965647/hostbinding-and-hostlistener-what-do-they-do-and-what-are-they-for?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+
+
+{
+	"stud_name":"hunny",
+	"stud_add":"vesu",
+	"gender":"female"
+}
+
+
+https://www.concretepage.com/angular-2/angular-4-crud-example
+
+http://www.thejavageek.com/2017/04/18/angular-4-crud-example/
+
+https://github.com/ultra2mh/angular4/tree/master/api
+
+https://www.thetechieshouse.com/angular-4-with-php-backend-angular-4-php-mysql
+https://github.com/mohittanwani/angular4-php-mysql/tree/master/src/app
+
+https://www.thetechieshouse.com/learn-angular-4-from-scratch/
+
+
+------------------------
+
+Date: 10_3_tue
+
+https://www.concretepage.com/angular-2/angular-4-crud-example
+ https://github.com/sahilgulatilanet/crud-angular
+
+http://www.dotnetcurry.com/angularjs/1380/angular-4-grid-crud
+http://www.thejavageek.com/2017/04/18/angular-4-crud-example/
+
+------------------------
+
+Date: 11_3_wed
+
+Sir :[Delete]
+http://localhost/phpapi/delete_article.php?action=delete&id=1
+
+[Update]
+http://localhost/phpapi/update_article.php?id=12
+{
+	"title":"air",
+	"category":"water"
+}
+
+
